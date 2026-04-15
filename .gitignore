@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# Sensitive variables
+*.tfvars
+
+# Lambda zip (rebuildable)
+modules/backend/lambda.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
